@@ -1,3 +1,11 @@
+@keyframes h1fade {
+  from {
+    color: rgba(255, 255, 255, 0);
+  }
+  to {
+    color: white;
+  }
+}
 a:link {
   color: rgb(0, 94, 255);
 }
@@ -19,16 +27,17 @@ body {
 }
 
 h1 {
-  color: #fff;
-}
-
-.heading {
+  color: rgba(255, 255, 255, 0);
   font-family: monospace;
-  font-size: 8px;
+  font-size: 12px;
   font-weight: lighter;
   letter-spacing: 1em;
   text-align: center;
   margin-top: 20%;
+  animation-name: h1fade;
+  animation-duration: 1s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
 }
 
 ._options {
