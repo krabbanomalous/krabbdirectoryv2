@@ -1,0 +1,62 @@
+a:link {
+  color: rgb(0, 94, 255);
+}
+
+a:hover {
+  color: #f0a;
+}
+
+a:active {
+  color: #f00;
+}
+
+a:visited {
+  color: rgb(70, 116, 151);
+}
+
+body {
+  background-color: #111;
+}
+
+h1 {
+  color: #fff;
+}
+
+.heading {
+  font-family: monospace;
+  font-size: 8px;
+  font-weight: lighter;
+  letter-spacing: 1em;
+  text-align: center;
+  margin-top: 20%;
+}
+
+._options {
+  display: grid;
+  grid-template-columns: repeat(5, 90px);
+  justify-content: center;
+  list-style-type: none;
+}
+
+._option {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+}
+
+img {
+  max-width: -moz-max-content;
+  max-width: max-content;
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  color: #fff;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20%;
+}/*# sourceMappingURL=style.css.map */
