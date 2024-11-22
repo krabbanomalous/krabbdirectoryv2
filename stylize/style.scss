@@ -4,6 +4,11 @@
     to {color: rgba(#fff, 1);}
 }
 
+@keyframes texture-move {
+    from {background-position: 34px 34px;}
+    to {background-position: 0px 0px;}
+}
+
 /////////////////
 
 a:link {
@@ -23,7 +28,16 @@ a:visited {
 }
 
 body {
-    background-color: #111;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background: linear-gradient(#0d0e2d 1.7px, transparent 1.7px), linear-gradient(to right, #0d0e2d 1.7px, hsl(266, 66%, 15%) 1.7px);
+    background-size: 34px 34px;
+
+    -webkit-animation-name: texture-move;
+    animation-name: texture-move;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 h1 {
